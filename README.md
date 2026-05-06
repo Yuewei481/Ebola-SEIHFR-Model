@@ -71,13 +71,13 @@ E, I, F
 
 The transmission process is represented by the infection subsystem:
 
-- E(t+1) = E(t) + β_I S(t)I(t) + β_F S(t)F(t) - αE(t)
-- I(t+1) = I(t) + αE(t) - (γ + δ)I(t)
-- F(t+1) = F(t) + γI(t) - σF(t)
+- E(t+1) = E(t) + β_I * S(t) * I(t) + β_F * S(t) * F(t) - α * E(t)
+- I(t+1) = I(t) + α * E(t) - (γ + δ) * I(t)
+- F(t+1) = F(t) + γ * I(t) - σ * F(t)
 
 Using the next generation matrix framework, the reproduction value is obtained as:
 
-R = (S/N) * (β_I σ + β_F γ) / (σ(δ + γ))
+R = (S / N) * (β_I * σ + β_F * γ) / (σ * (δ + γ))
 
 This value represents the effective reproduction level of the epidemic at a given time.
 

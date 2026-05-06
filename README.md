@@ -87,7 +87,7 @@ This value represents the effective reproduction level of the epidemic at a give
 To compare the theoretical prediction with the simulation results, we define:
 
 \[
-D(t)=E(t)+I(t)+F(t)
+D(t) = E(t) + I(t) + F(t)
 \]
 
 and track both \(D(t)\) and \(R(t)\) over time. The model identifies the first time point where \(R(t) < 1\), and compares it with the behavior of \(D(t)\) in the simulation. The generated plots show that the decline of \(D(t)\) occurs near the point where \(R(t)\) crosses below 1, providing validation for the theoretical analysis.

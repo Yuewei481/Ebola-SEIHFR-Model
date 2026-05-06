@@ -39,6 +39,24 @@ The simulation is implemented using:
 
 ---
 
+### Parameter Interpretation
+
+Each transition is controlled by a model parameter:
+
+- `β_I`: transmission rate from infectious individuals `I` to susceptible individuals `S`. It describes direct human-to-human infection.
+
+- `β_F`: transmission rate from funeral-related infectious individuals `F` to susceptible individuals `S`. It describes infection caused by funeral-related contact.
+
+- `α`: transition rate from exposed individuals `E` to infectious individuals `I`. It represents the end of the incubation period.
+
+- `δ`: transition rate from infectious individuals `I` to hospitalized individuals `H`. It represents hospitalization or isolation.
+
+- `γ`: transition rate from infectious individuals `I` to funeral-related individuals `F`. It represents disease-induced death before burial.
+
+- `η`: transition rate from hospitalized individuals `H` to removed individuals `R`. It represents recovery or removal after hospitalization.
+
+- `σ`: transition rate from funeral-related individuals `F` to removed individuals `R`. It represents burial and removal from transmission.
+
 ## 📊 Infection Measure
 
 We define:

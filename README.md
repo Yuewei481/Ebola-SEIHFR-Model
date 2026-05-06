@@ -39,7 +39,7 @@ The simulation is implemented using:
 
 ---
 
-### Parameter Interpretation
+## 🧩 Parameter Interpretation
 
 Each transition is controlled by a model parameter:
 
@@ -56,6 +56,8 @@ Each transition is controlled by a model parameter:
 - `η`: transition rate from hospitalized individuals `H` to removed individuals `R`. It represents recovery or removal after hospitalization.
 
 - `σ`: transition rate from funeral-related individuals `F` to removed individuals `R`. It represents burial and removal from transmission.
+
+---
 
 ## 📊 Infection Measure
 
